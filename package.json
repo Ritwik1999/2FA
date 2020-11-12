@@ -1,0 +1,21 @@
+{
+  "name": "speakeasy",
+  "version": "1.0.0",
+  "description": "2fa-trial",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "author": "Ritwik Neema",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-json-db": "^1.1.0",
+    "speakeasy": "^2.0.0",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  }
+}
